@@ -6,4 +6,4 @@ A ToDoList using MERN stack.
 
 
 note : 
-     run "npm init" to install all the node_modules folder.
+     run "npm i" to install all the node_modules folder.
