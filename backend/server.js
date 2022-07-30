@@ -2,7 +2,7 @@
 var express=require("express");
 var mongoose= require("mongoose")
 var Project = require("./projectModel")
-var url="mongodb+srv://sunshiine_1225:D@cluster0.iv1gn.mongodb.net/?retryWrites=true&w=majority"
+var url="mongodb+srv://sunshiine_1225:password@cluster0.iv1gn.mongodb.net/?retryWrites=true&w=majority"
 mongoose.connect(url,{useNewUrlParser : true ,useUnifiedTopology:true})
 .then(() => {
     console.log("DB CONNECTED");})
